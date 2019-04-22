@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+
+        <item
+            android:id="@+id/tts"
+            android:icon="@drawable/icon_speaker"
+            android:title="Text to speech" />
+        <item
+            android:id="@+id/stt"
+            android:icon="@drawable/icon_mic"
+            android:title="Speech to text" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/icon_history"
+            android:title="History" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/icon_about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
